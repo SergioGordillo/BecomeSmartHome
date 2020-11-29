@@ -244,7 +244,7 @@ CREATE TABLE `usuario` (
 --
 
 INSERT INTO `usuario` (`id_usuario`, `email`, `password`, `nombre`, `apellidos`, `direccion`, `id_localidad`, `rol`, `imagen`) VALUES
-(13, 'sergiogordillodev@gmail.com', '$2y$04$V7/XXQMfw.ApT2vQUAEkD.Rrjk0dhpFeo2dEoZpR92lRTxWSsvxLa', 'Sergio', 'Gordillo', 'Avenida de Julio Maldonado nº 1', 1, 'administrador', 'AIMIUVEI Smartwatch.jpg'),
+(13, 'sergiogordillo@gmail.com', '$2y$04$V7/XXQMfw.ApT2vQUAEkD.Rrjk0dhpFeo2dEoZpR92lRTxWSsvxLa', 'Sergio', 'Gordillo', 'Avenida de Julio Maldonado nº 1', 1, 'administrador', 'AIMIUVEI Smartwatch.jpg'),
 (14, 'supermario@gmail.com', '$2y$04$6xR48JD/7DexaeG3N8582.JW8ZdeWPd04dOuPvCXvaLGI2R8kjP6K', 'Super Mario', 'Bros', 'Avenida de Super Mario 1', 1, 'usuario', 'AIMIUVEI Smartwatch.jpg'),
 (15, 'juliomaldonado@gmail.com', '$2y$04$3Zsqgjo2N1AosPPDekUnuuDBb0Zx.4qADYSXG4RHY.7R32aSpiExa', 'Julio', 'Maldonado', 'Mi Avenida 1', 1, 'administrador', 'AIMIUVEI Smartwatch.jpg'),
 (16, 'amadorrivas@gmail.com', '$2y$04$3OjoWGdhTgaIsbMNPnQH5u6MwJYvHhXHfd4kEKyEfIq5BgLpK/RJ6', 'Amador', 'Rivas', 'Calle Pinchito 1', 1, 'administrador', 'AIMIUVEI Smartwatch.jpg'),
