@@ -1,0 +1,217 @@
+[29-Nov-2020 14:59:59 Europe/Madrid] PHP Warning:  include(controllers/ErrorController.php): failed to open stream: No such file or directory in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/autoload.php on line 4
+[29-Nov-2020 14:59:59 Europe/Madrid] PHP Warning:  include(controllers/ErrorController.php): failed to open stream: No such file or directory in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/autoload.php on line 4
+[29-Nov-2020 14:59:59 Europe/Madrid] PHP Warning:  include(): Failed opening 'controllers/ErrorController.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/autoload.php on line 4
+[29-Nov-2020 14:59:59 Europe/Madrid] PHP Fatal error:  Uncaught Error: Class 'ErrorController' not found in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/index.php:13
+Stack trace:
+#0 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/index.php(38): show_error()
+#1 {main}
+  thrown in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/index.php on line 13
+[29-Nov-2020 15:00:05 Europe/Madrid] PHP Warning:  include(controllers/ErrorController.php): failed to open stream: No such file or directory in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/autoload.php on line 4
+[29-Nov-2020 15:00:05 Europe/Madrid] PHP Warning:  include(controllers/ErrorController.php): failed to open stream: No such file or directory in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/autoload.php on line 4
+[29-Nov-2020 15:00:05 Europe/Madrid] PHP Warning:  include(): Failed opening 'controllers/ErrorController.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/autoload.php on line 4
+[29-Nov-2020 15:00:05 Europe/Madrid] PHP Fatal error:  Uncaught Error: Class 'ErrorController' not found in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/index.php:13
+Stack trace:
+#0 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/index.php(38): show_error()
+#1 {main}
+  thrown in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/index.php on line 13
+[29-Nov-2020 15:01:08 Europe/Madrid] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/confirmado.php:25
+Stack trace:
+#0 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php(69): require_once()
+#1 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/index.php(33): pedidoController->confirmado()
+#2 {main}
+  thrown in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/confirmado.php on line 25
+[29-Nov-2020 19:27:55 Europe/Madrid] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/confirmado.php:25
+Stack trace:
+#0 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php(69): require_once()
+#1 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/index.php(33): pedidoController->confirmado()
+#2 {main}
+  thrown in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/confirmado.php on line 25
+[29-Nov-2020 19:28:01 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getLocalidad() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 23
+[29-Nov-2020 19:28:01 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getProvincia() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 24
+[29-Nov-2020 19:28:01 Europe/Madrid] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php:41
+Stack trace:
+#0 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php(99): require_once()
+#1 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/index.php(33): pedidoController->detalle()
+#2 {main}
+  thrown in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 41
+[29-Nov-2020 19:31:36 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getLocalidad() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 23
+[29-Nov-2020 19:31:36 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getProvincia() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 24
+[29-Nov-2020 19:31:36 Europe/Madrid] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php:41
+Stack trace:
+#0 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php(99): require_once()
+#1 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/index.php(33): pedidoController->detalle()
+#2 {main}
+  thrown in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 41
+[29-Nov-2020 19:31:58 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getLocalidad() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 23
+[29-Nov-2020 19:31:58 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getProvincia() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 24
+[29-Nov-2020 19:31:58 Europe/Madrid] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php:41
+Stack trace:
+#0 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php(99): require_once()
+#1 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/index.php(33): pedidoController->detalle()
+#2 {main}
+  thrown in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 41
+[29-Nov-2020 19:36:02 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getLocalidad() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 23
+[29-Nov-2020 19:36:02 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getProvincia() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 24
+[29-Nov-2020 19:36:02 Europe/Madrid] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php:41
+Stack trace:
+#0 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php(99): require_once()
+#1 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/index.php(33): pedidoController->detalle()
+#2 {main}
+  thrown in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 41
+[29-Nov-2020 19:36:05 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getLocalidad() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 23
+[29-Nov-2020 19:36:05 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getProvincia() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 24
+[29-Nov-2020 19:36:05 Europe/Madrid] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php:41
+Stack trace:
+#0 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php(99): require_once()
+#1 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/index.php(33): pedidoController->detalle()
+#2 {main}
+  thrown in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 41
+[29-Nov-2020 19:38:12 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getLocalidad() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 23
+[29-Nov-2020 19:38:12 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getProvincia() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 24
+[29-Nov-2020 19:38:12 Europe/Madrid] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php:41
+Stack trace:
+#0 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php(99): require_once()
+#1 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/index.php(33): pedidoController->detalle()
+#2 {main}
+  thrown in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 41
+[29-Nov-2020 19:42:52 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getLocalidad() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 23
+[29-Nov-2020 19:42:52 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getProvincia() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 24
+[29-Nov-2020 19:42:52 Europe/Madrid] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php:41
+Stack trace:
+#0 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php(103): require_once()
+#1 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/index.php(33): pedidoController->detalle()
+#2 {main}
+  thrown in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 41
+[29-Nov-2020 19:44:27 Europe/Madrid] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php on line 96
+[29-Nov-2020 19:44:30 Europe/Madrid] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php on line 96
+[29-Nov-2020 19:44:35 Europe/Madrid] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php on line 96
+[29-Nov-2020 19:44:37 Europe/Madrid] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php on line 96
+[29-Nov-2020 19:44:42 Europe/Madrid] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php on line 96
+[29-Nov-2020 19:45:36 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getLocalidad() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 23
+[29-Nov-2020 19:45:36 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getProvincia() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 24
+[29-Nov-2020 19:45:36 Europe/Madrid] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php:41
+Stack trace:
+#0 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php(107): require_once()
+#1 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/index.php(33): pedidoController->detalle()
+#2 {main}
+  thrown in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 41
+[29-Nov-2020 19:46:30 Europe/Madrid] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php on line 96
+[29-Nov-2020 19:46:34 Europe/Madrid] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php on line 96
+[29-Nov-2020 19:46:35 Europe/Madrid] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php on line 96
+[29-Nov-2020 19:46:46 Europe/Madrid] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php on line 96
+[29-Nov-2020 19:46:48 Europe/Madrid] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php on line 96
+[29-Nov-2020 19:48:02 Europe/Madrid] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php on line 96
+[29-Nov-2020 19:48:13 Europe/Madrid] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php on line 96
+[29-Nov-2020 19:48:14 Europe/Madrid] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php on line 96
+[29-Nov-2020 19:48:27 Europe/Madrid] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php on line 96
+[29-Nov-2020 19:49:10 Europe/Madrid] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php on line 96
+[29-Nov-2020 19:49:11 Europe/Madrid] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php on line 96
+[29-Nov-2020 19:49:16 Europe/Madrid] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php on line 96
+[29-Nov-2020 19:49:51 Europe/Madrid] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php on line 96
+[29-Nov-2020 19:49:53 Europe/Madrid] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php on line 96
+[29-Nov-2020 19:50:11 Europe/Madrid] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php on line 96
+[29-Nov-2020 19:50:13 Europe/Madrid] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php on line 96
+[29-Nov-2020 20:00:47 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getLocalidad() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 23
+[29-Nov-2020 20:00:47 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getProvincia() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 24
+[29-Nov-2020 20:00:47 Europe/Madrid] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php:41
+Stack trace:
+#0 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php(105): require_once()
+#1 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/index.php(33): pedidoController->detalle()
+#2 {main}
+  thrown in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 41
+[29-Nov-2020 20:02:35 Europe/Madrid] PHP Notice:  Undefined property: stdClass::$17 in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php on line 99
+[29-Nov-2020 20:02:35 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getLocalidad() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 23
+[29-Nov-2020 20:02:35 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getProvincia() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 24
+[29-Nov-2020 20:02:35 Europe/Madrid] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php:41
+Stack trace:
+#0 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php(105): require_once()
+#1 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/index.php(33): pedidoController->detalle()
+#2 {main}
+  thrown in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 41
+[29-Nov-2020 20:02:37 Europe/Madrid] PHP Notice:  Undefined property: stdClass::$17 in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php on line 99
+[29-Nov-2020 20:02:37 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getLocalidad() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 23
+[29-Nov-2020 20:02:37 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getProvincia() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 24
+[29-Nov-2020 20:02:37 Europe/Madrid] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php:41
+Stack trace:
+#0 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php(105): require_once()
+#1 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/index.php(33): pedidoController->detalle()
+#2 {main}
+  thrown in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 41
+[29-Nov-2020 20:02:39 Europe/Madrid] PHP Notice:  Undefined property: stdClass::$17 in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php on line 99
+[29-Nov-2020 20:02:39 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getLocalidad() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 23
+[29-Nov-2020 20:02:39 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getProvincia() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 24
+[29-Nov-2020 20:02:39 Europe/Madrid] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php:41
+Stack trace:
+#0 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php(105): require_once()
+#1 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/index.php(33): pedidoController->detalle()
+#2 {main}
+  thrown in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 41
+[29-Nov-2020 20:02:44 Europe/Madrid] PHP Notice:  Undefined property: stdClass::$17 in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php on line 99
+[29-Nov-2020 20:02:44 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getLocalidad() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 23
+[29-Nov-2020 20:02:44 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getProvincia() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 24
+[29-Nov-2020 20:02:44 Europe/Madrid] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php:41
+Stack trace:
+#0 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php(105): require_once()
+#1 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/index.php(33): pedidoController->detalle()
+#2 {main}
+  thrown in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 41
+[29-Nov-2020 20:02:51 Europe/Madrid] PHP Notice:  Undefined property: stdClass::$17 in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php on line 99
+[29-Nov-2020 20:02:51 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getLocalidad() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 23
+[29-Nov-2020 20:02:51 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getProvincia() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 24
+[29-Nov-2020 20:02:51 Europe/Madrid] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php:41
+Stack trace:
+#0 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php(105): require_once()
+#1 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/index.php(33): pedidoController->detalle()
+#2 {main}
+  thrown in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 41
+[29-Nov-2020 20:03:52 Europe/Madrid] PHP Notice:  Undefined property: stdClass::$17 in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php on line 99
+[29-Nov-2020 20:03:52 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getLocalidad() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 23
+[29-Nov-2020 20:03:52 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getProvincia() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 24
+[29-Nov-2020 20:03:52 Europe/Madrid] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php:41
+Stack trace:
+#0 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php(105): require_once()
+#1 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/index.php(33): pedidoController->detalle()
+#2 {main}
+  thrown in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 41
+[29-Nov-2020 20:04:07 Europe/Madrid] PHP Notice:  Undefined property: stdClass::$17 in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php on line 99
+[29-Nov-2020 20:04:07 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getLocalidad() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 23
+[29-Nov-2020 20:04:07 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getProvincia() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 24
+[29-Nov-2020 20:04:07 Europe/Madrid] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php:41
+Stack trace:
+#0 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php(105): require_once()
+#1 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/index.php(33): pedidoController->detalle()
+#2 {main}
+  thrown in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 41
+[29-Nov-2020 20:05:24 Europe/Madrid] PHP Notice:  Undefined property: stdClass::$17 in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php on line 99
+[29-Nov-2020 20:05:24 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getLocalidad() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 23
+[29-Nov-2020 20:05:24 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getProvincia() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 24
+[29-Nov-2020 20:05:24 Europe/Madrid] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php:41
+Stack trace:
+#0 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php(105): require_once()
+#1 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/index.php(33): pedidoController->detalle()
+#2 {main}
+  thrown in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 41
+[29-Nov-2020 20:05:40 Europe/Madrid] PHP Notice:  Undefined property: stdClass::$17 in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php on line 99
+[29-Nov-2020 20:05:40 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getLocalidad() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 23
+[29-Nov-2020 20:05:40 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getProvincia() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 24
+[29-Nov-2020 20:05:40 Europe/Madrid] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php:41
+Stack trace:
+#0 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/controllers/pedidoController.php(105): require_once()
+#1 /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/index.php(33): pedidoController->detalle()
+#2 {main}
+  thrown in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 41
+[29-Nov-2020 20:06:22 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getLocalidad() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 23
+[29-Nov-2020 20:06:22 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getProvincia() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 24
+[29-Nov-2020 20:06:22 Europe/Madrid] PHP Warning:  fputs() expects parameter 2 to be string, object given in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 46
+[29-Nov-2020 20:07:00 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getLocalidad() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 23
+[29-Nov-2020 20:07:00 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getProvincia() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 24
+[29-Nov-2020 20:07:00 Europe/Madrid] PHP Warning:  fputs() expects parameter 2 to be string, object given in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 46
+[29-Nov-2020 20:08:08 Europe/Madrid] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 61
+[29-Nov-2020 20:08:11 Europe/Madrid] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 61
+[29-Nov-2020 20:08:14 Europe/Madrid] PHP Parse error:  syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 61
+[29-Nov-2020 20:08:46 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getLocalidad() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 23
+[29-Nov-2020 20:08:46 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getProvincia() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 24
+[29-Nov-2020 20:08:53 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getLocalidad() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 23
+[29-Nov-2020 20:08:53 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getProvincia() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 24
+[29-Nov-2020 20:09:27 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getLocalidad() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 23
+[29-Nov-2020 20:09:27 Europe/Madrid] PHP Deprecated:  Non-static method Utils::getProvincia() should not be called statically in /home/algorit1/public_html/algoritmosalvaje.com/BecomeSmartHome/views/pedido/detalle.php on line 24

@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+
+#ACTIVO EL REWRITE
+RewriteEngine on
+
+#LE INDICO LA RUTA A VISITAR CUANDO DÉ ERROR 404
+ErrorDocument 404 http://localhost/BecomeSmartHomeSergio/
+
+#LE INDICO QUE SI NO HAY DIRECTORIO NI FICHERO CON EL NOMBRE DE LA RUTA APLICARÁ LA REWRITE RULE
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+#LE INDICO EL FORMATO DE LA URL
+RewriteRule ^(.*)/(.*) index.php?controller=$1&action=$2
+</IfModule>
